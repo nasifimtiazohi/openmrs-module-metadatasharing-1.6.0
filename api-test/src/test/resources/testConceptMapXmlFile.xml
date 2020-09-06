@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+<org.openmrs.ConceptMap id="40" uuid="4acef65d-3a76-4102-8d88-53b2a7c2dd1e">
+	<concept class="org.openmrs.ConceptNumeric" reference="2"/>
+	<source id="41" resolves-to="org.openmrs.ConceptSource"
+			uuid="00001827-639f-4cb4-961f-1e025bf80000">
+		<name>Some Standardized Terminology</name>
+		<description>A made up source</description>
+		<creator/>
+		<dateCreated id="43">2005-02-24 00:00:00</dateCreated>
+		<retired>false</retired>
+		<hl7Code>SSTRM</hl7Code>
+	</source>
+	<sourceCode>WGT234</sourceCode>
+	<comment>MAP TYPE:SAME-AS</comment>
+	<creator/>
+	<dateCreated id="44">2004-08-12 00:00:00</dateCreated>
+</org.openmrs.ConceptMap>
+<org.openmrs.ConceptMap id="45" uuid="4bb7f2b7-7bd1-41c5-a7a0-30454559e78f">
+	<concept class="org.openmrs.ConceptNumeric" reference="2"/>
+	<source id="46" resolves-to="org.openmrs.ConceptSource"
+			uuid="j3nfjk33-639f-4cb4-961f-1e025b908433">
+		<name>SNOMED CT</name>
+		<description>'Systematized Nomenclature of Medicine--Clinical Terms' is a comprehensive clinical terminology</description>
+		<creator/>
+		<dateCreated id="48">2005-02-24 00:00:00</dateCreated>
+		<retired>false</retired>
+		<hl7Code>SNOMED-CT</hl7Code>
+	</source>
+	<sourceCode>2332523</sourceCode>
+	<comment>MAP TYPE:SAME-AS</comment>
+	<creator/>
+	<dateCreated id="49">2004-08-12 00:00:00</dateCreated>
+</org.openmrs.ConceptMap>
+</list>
